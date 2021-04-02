@@ -1,0 +1,6 @@
+{:paths ["src/clj"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"}
+       	rum/rum {:mvn/version "0.12.3" :exclusions [cljsjs/react cljsjs/react-dom]}}
+
+ :aliases {:run {:main-opts ["-m" "use-clj.core"]}}
+ }
